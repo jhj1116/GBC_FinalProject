@@ -2,7 +2,7 @@
 
 $db_host = "localhost";
 $db_user = "root";
-$db_password = "1q2w3e4r5t";
+$db_password = "****";
 $db_name = "gbc_project";
 
 $con = new mysqli($db_host, $db_user, $db_password, $db_name); // 데이터베이스 접속
