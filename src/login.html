@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset = "UTF-8">
+      <meta name = "viewport" content = "width=device-width", initial-scale="1">
+      <title>Joeun_login</title>
+      <link rel="stylesheet" href ="../css/bootstrap.css">
+</head>
+<body>
+   <style>
+      body{
+         text-shadow: black 0.1em 0.1em 0.1em;
+         background-color: #F8F8F7;
+      } 
+   </style>
+
+   <div class ="container">
+      <div class = "col-md-6 col-md-offset-3">
+      
+         <form method="post" action="../process/login.php">
+            <h3 style = "text-align: center; font-size:3.3em">Login</h3>
+            <div class = "form-group", style = "text-align:center">
+               <center><input type = "text" class = "form-control" placeholder = "아이디" name = "userID" maxlength = "20" style = "border: 1px solid black"></center>
+            </div>
+
+            <div class = "form-group", style = "text-align:center">
+               <center><input type = "password" class = "form-control" placeholder = "비밀번호" name = "userPassword" maxlength = "20" style = "border: 1px solid black"></center>
+            </div>
+            
+            <center><button type = "submit" class="btn btn-primary form-control" style = "background-color:#C6C6C5 ; border: 1px solid black; color:black" >Login</button>
+            </center>
+
+         </form>
+            <a href = "./sche_register.html"><center><button class="btn btn-primary form-control" style = "color:black; border: 1px solid black; background-color: #C6C6C5">Sign up</button></center></a>
+      </div>
+   </div>
+   <script src = "http://code.jquery.com/jquery-3.1.1.min.js"></script>
+   <script src = "js/bootstrap.js"></script>
+</body>
+</html> 

@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+{
+	font-family: 'namum Gothic';
+}
+a {
+	color : #F8B8CF;
+	text-decoration: none;
+}
+
+a:hover {
+	color : #bbbbbb;
+	text-decoration: none;
+}
+
+/*네비게이션 영역*/
+/*배경색상*/
+.navar-default
+{
+	background-color: #ffffff;
+	background: transparent;
+	border-color: #DAD9D9;
+}
+/*네비게이션 제목 색상*/
+.navar-default .navar-brand
+{
+	color: #F8B8CF;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus
+{
+	background: transparent;
+	color: #bbbbbb;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+{
+	color: white;
+	background-color: ##F8B8CF;
+	background: transparent;
+}
+
+/*네비게이션 클릭했을 떄*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+{
+	color: #C5C5C5;
+}
+
+/* 드랍다운이 열렸을 때 마우스 색상 이벤트*/
+.narbar-default .navbar-nav > .aopen > a;
+.narbar-default .navbar-nav > .aopen > a:hover;
+.narbar-default .navbar-nav > .aopen > a:focus;
+{
+	color: #ffffff;
+	background-color: #000000;
+	text-decoration : none;
+} 
+/*네비게이션 기본 글씨 색깔*/
+.navbar-default .navbar-nav > li > a
+{
+	color: #000000;
+}
+
+
+
+

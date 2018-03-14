@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset = "UTF-8">
+      <meta name = "viewport" content = "width=device-width", initial-scale="1">
+      <title>Joeun_SignUp</title>
+      <link rel="stylesheet" href ="../css/bootstrap.css">
+</head>
+<body>
+   <style>
+   body{
+      background-color:#F8F8F7;
+   }
+   .red{
+      color: red;
+   }
+   </style>
+   
+   <article class = "container">
+      <div class = "page-header">
+         <div class = "col-md-6 col-md-offset-3">
+            <h3>회원가입 Form</h3>
+         </div>
+      </div>
+      <div class = "col-sm-6 col-md-offset-3">
+         <form role = "form" method = "POST" action = "../process/signup.php">
+            <div class = "form-group">
+               <label for = "Name"><b class = "red">* </b>Name</label>
+               <input type = "text" class = "form-control" name = "Name" placeholder = "이름을 입력하세요." style = "border: 1px solid black">
+            </div>
+
+            <div class = "form-group">
+               <label for = "ID"><b class = "red">* </b>ID</label>
+               <input type = "text" class = "form-control" name = "ID" placeholder = "ID 입력하세요." style = "border: 1px solid black">
+            </div>
+
+            <div class = "form-group">
+               <label for = "Password"><b class = "red">* </b>Password</label>
+               <input type = "password" class = "form-control" name = "Password" placeholder = "비밀번호를 입력하세요." style = "border: 1px solid black">
+            </div>
+
+            <div class = "form-group">
+               <label for = "AgainPassword"><b class = "red">* </b>Password</label>
+               <input type = "password" class = "form-control" name = "AgainPassword" placeholder = "비밀번호를 다시 입력하세요." style = "border: 1px solid black">
+            </div>
+
+            <div class = "form-group">
+               <label for = "Date"><b class = "red">* </b>Date</label>
+               <input type = "date" class = "form-control" name = "Date" style = "border: 1px solid black">
+            </div>
+
+            <div class = "form-group">
+               <label for = "Tel">Tel</label>
+               <input type = "tel" class = "form-control" name = "Tel" placeholder = "전화번호를 입력해주세요." style = "border: 1px solid black">
+            </div>
+
+            <div class = "form-group">
+               <label for = "Email">Email</label>
+               <input type = "email" class = "form-control" name = "InputEmail" placeholder = "이메일을 입력해주세요." style = "border: 1px solid black">
+            </div>
+
+            <div class = "form-group">
+               <b class ="red">*</b>
+               <b id "ps">: 필수 입력 정보입니다.</b>
+            </div>
+
+            <div class = "form-group">
+               <label>약관 동의</label>
+               <div data-toggle = "buttons">
+                  <form>
+                       <div>
+                         <input type="checkbox" id="subscribeNews" name="agree" value="newsletter">
+                     <a href = "agree.html" target = "_blank" style = "color: red" >이용약관</a>에 동의합니다. 
+                  </form>
+               </div>
+            </div>
+         
+            <div class = "form-group text-center">
+               <button type = "submit" id="join-submit" class = "btn btn-primary" href = "../process/signup.php" style = "background-color:#8D8D8C; border: 1px solid white " >회원가입<i class ="fa fa-check spaceLeft"></i>
+               </button>
+
+               <input type = "button" class = "btn btn-warning" value = "가입취소" style = "background-color:#C6C6C5; border: 1px solid white" onclick="window.location.href='../src/login.html'"><i class ="fa fa-times spaceLeft" ></i>
+            </div>
+         </form>
+      </div>
+   </article>
+</body>
+</html>
